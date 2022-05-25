@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GenreController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MovieController;
 use Illuminate\Support\Facades\Route;
@@ -17,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/movies/{movie}', [MovieController::class, 'index'])->name('movie-detail');
+Route::get('/genres/{genre}', [GenreController::class, 'index'])->name('genre');

@@ -14,7 +14,7 @@
                         <x-movie-card :movie="$genre->movies[$i]"></x-movie-card>    
                     @endfor 
                 </div>
-                <a href="" class="text-sm text-gray-600 text-right ml-5 p-1">View Movies With This Category...</a>
+                <a href="{{ route('genre',$genre) }}" class="text-sm text-gray-600 text-right ml-5 p-1">View Movies With This Category...</a>
             </div>
         @endforeach
     </div>

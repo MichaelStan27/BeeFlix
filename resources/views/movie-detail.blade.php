@@ -12,7 +12,7 @@
                     <h2 class="text-sm text-gray-500">rating: {{ $movie->rating }}</h2>
                     <p class="text-justify text-gray-600">{{ $movie->description }}</p>
                     <h1 class="mt-5 text-lg">Kategori:
-                        <a href="" class="text-blue-500 underline hover:text-purple-500">
+                        <a href="{{ route('genre', $genre) }}" class="text-blue-500 underline hover:text-purple-500">
                             {{ $genre->name }}
                         </a>
                     </h1>
