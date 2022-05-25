@@ -17,7 +17,7 @@ class MovieSeeder extends Seeder
         Movie::insert([
             [
                 'genre_id' => 3,
-                'title' => 'Manifest S2',
+                'title' => 'Manifest S1',
                 'photo' => 'Manifest.jpg',
                 'description' => 'When a plane mysteriously lands years after takeoff, the people onboard return to a world that has moved on without them and face strange, new realities.',
                 'rating' => 4,
@@ -35,7 +35,7 @@ class MovieSeeder extends Seeder
             ],
             [
                 'genre_id' => 3,
-                'title' => 'Lucifer',
+                'title' => 'Lucifer S6',
                 'photo' => 'Lucifer.jpg',
                 'description' => 'Bored with being the Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective.',
                 'rating' => 5,
